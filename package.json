@@ -1,0 +1,16 @@
+{
+  "name": "deep-terminal-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Termux-styled terminal portfolio for Deep Akbari",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  }
+}
