@@ -5,9 +5,9 @@
   "type": "module",
   "description": "Termux-styled terminal portfolio for Deep Akbari",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "node ./node_modules/vite/bin/vite.js",
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "preview": "node ./node_modules/vite/bin/vite.js preview",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
